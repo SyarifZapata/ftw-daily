@@ -18,7 +18,6 @@ export const SAVE_PAYOUT_DETAILS_ERROR = 'app/StripePayoutPage/SAVE_PAYOUT_DETAI
 const initialState = {
   payoutDetailsSaveInProgress: false,
   payoutDetailsSaved: false,
-  fromReturnURL: false,
 };
 
 export default function reducer(state = initialState, action = {}) {
